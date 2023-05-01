@@ -1,0 +1,21 @@
+'''
+file:__main__
+
+主程序(相当于程序的入口)
+'''
+
+import sys
+sys.path.append('.')
+sys.path.append('core')
+sys.path.append('lib')
+
+import config
+
+from core import main,test
+
+if True:
+    test()
+    exit()
+
+if __name__ == '__main__':
+    main()
